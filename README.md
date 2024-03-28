@@ -3,7 +3,7 @@ This project is calling Hacker News API which will return Best n Stories based o
 
 This project is created on ASP.NET 8.0 
 
-----------------------------------------------------------------   My assumptions  ---------------------------------------------------------------------------
+----------------------------------------------------------------   My assumptions  ------------------------------------------
 
 In the required response commentCount were asked, which will be the count of kids for each story.
 
@@ -13,7 +13,7 @@ But I consider that kids inside each kid should also be consider in comments cou
 
 This consideration of mine creates recurrsion and thats how I calculate number of comments for each story
 
----------------------------------------------------------------  Current Enhancements  -----------------------------------------------------------------
+---------------------------------------------------------------  Current Enhancements  --------------------------------------
 
 As the HackerNews API does not give us data in a bulk, So for each time we need to hit API with specific story Id (https://hacker-news.firebaseio.com/v0/item/{xyz}.json).
 
